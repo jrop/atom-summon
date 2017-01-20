@@ -1,0 +1,5 @@
+{
+	"html": {
+		"ctrl-`": "atom-summon:toggle"
+	}
+}

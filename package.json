@@ -1,0 +1,24 @@
+{
+  "name": "atom-summon",
+  "main": "lib/index",
+  "version": "0.0.0",
+  "description": "Summon a terminal easily",
+  "keywords": [],
+  "repository": "https://github.com/jrop/atom-summon",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src/ -d lib/",
+    "buildw": "babel -w src/ -d lib/"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-latest": "^6.22.0"
+  },
+  "dependencies": {
+    "node-pty": "^0.6.0",
+    "xterm": "^2.2.3"
+  }
+}
