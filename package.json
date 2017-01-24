@@ -1,7 +1,7 @@
 {
   "name": "atom-summon",
   "main": "lib/index",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Summon a terminal easily",
   "keywords": [],
   "repository": "https://github.com/jrop/atom-summon",
